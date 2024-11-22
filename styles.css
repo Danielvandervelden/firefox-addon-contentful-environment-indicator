@@ -1,0 +1,20 @@
+.custom-follower-div {
+    position: fixed;
+    padding: 0 5px;
+    background-color: red;
+    border-radius: 3px;
+    pointer-events: none;
+    z-index: 9999;
+    display: none;
+    color: #FFF;
+    align-items: center;
+
+    svg {
+      color: #FFF;
+      fill: #FFF;
+    }
+
+    div {
+      background-color: inherit;
+    }
+}

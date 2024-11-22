@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Mouse Follower for Contentful",
+  "version": "1.0",
+  "description": "An addon that makes a circle follow your mouse on app.contentful.com",
+  "content_scripts": [
+    {
+      "matches": ["https://app.contentful.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "permissions": [
+    "https://app.contentful.com/*"
+  ]
+}
