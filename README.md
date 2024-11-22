@@ -1,0 +1,1 @@
+Contentful plugin to show what environment you're on near your mouse.z
